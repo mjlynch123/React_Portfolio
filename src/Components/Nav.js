@@ -27,6 +27,7 @@ export default function Nav() {
         </ul>
       </nav>
 
+      {/* Calling the components that are selected */}
       {selectedItem === "about" && <About />}
       {selectedItem === "portfolio" && <Portfolio />}
       {selectedItem === "contact" && <Contact />}

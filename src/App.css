@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+/* Nav Component */
+
 nav {
   position: relative;
   left: 50%;
@@ -51,6 +53,29 @@ nav ul li:hover {
   cursor: pointer;
 }
 
+/* About Component */
+
+.avatar {
+  margin: 20px auto;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+  width: 325px;
+  height: 325px;
+}
+
+.avatar img {
+  width: 320px;
+  height: 300px;
+  margin-top: 25px;
+}
+
+.avatar,
+.avatar img {
+  border-radius: 50%;
+}
+
 .intro {
   width: 75%;
   position: relative;
@@ -67,6 +92,7 @@ nav ul li:hover {
 }
 
 /* Portfolio Component */
+
 .projects {
   width: 75%;
   display: flex;
@@ -118,4 +144,151 @@ nav ul li:hover {
   background-color: rgba(51, 230, 51);
   color: white;
   text-decoration: none;
+}
+
+/* Resume Component */
+
+.resume {
+  width: 33%;
+  margin: 10px auto;
+  border: 1px solid;
+  height: 850px;
+  background-image: url("../public/resume_image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.resume-btn {
+  margin: 20px;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px 60px;
+  border-radius: 7px;
+  background-color: rgb(51, 230, 51);
+}
+
+/* Contact Component */
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 10px;
+}
+
+input,
+textarea {
+  margin: 5px;
+  padding: 2px;
+  outline: none;
+}
+
+input {
+  height: 20px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: rgb(51, 230, 51);
+  border: none;
+  color: white;
+  font-weight: bold;
+  outline: none;
+}
+
+form p {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+  text-align: left;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    height: auto;
+  }
+
+  /* Nav Component */
+
+  .name {
+    width: 100%;
+    height: 75px;
+    top: 25%;
+  }
+
+  .name h1 {
+    margin-left: 0;
+    top: 50%;
+    font-size: 35px;
+  }
+
+  nav {
+    height: 140px;
+    width: 100%;
+  }
+
+  nav ul {
+    height: auto;
+    top: 35%;
+    width: 100%;
+    line-height: normal;
+  }
+
+  nav ul li {
+    height: 25px;
+    margin: 5px;
+    padding: 7px;
+    line-height: normal;
+  }
+
+  /* About Component */
+
+  .intro {
+    margin: 5px;
+    margin-left: 0;
+    font-size: 15px;
+    width: calc(100% - 20px);
+    line-height: 1.4;
+  }
+
+  .intro p {
+    margin: 10px 0;
+    margin-bottom: 65px;
+  }
+
+  /* Portfolio Component */
+
+  .projects {
+    width: calc(100% - 20px);
+  }
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    width: 100%;
+  }
+
+  /* Contact Component */
+  form {
+    width: calc(100% - 20px);
+  }
+
+  /* Resume Component */
+  .resume {
+    width: 100%;
+    height: 500px;
+  }
 }
