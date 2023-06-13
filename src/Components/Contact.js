@@ -92,6 +92,7 @@ export default function Contact() {
             onBlur={handleInputChange}
             required
           />
+          {/* if there is no name entered after user clicks away from the ox then it will throw an error on screen */}
           {inputErrors.name && <p>{inputErrors.name}</p>}
           <input
             type="email"
