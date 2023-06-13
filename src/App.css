@@ -217,6 +217,9 @@ form p {
 }
 
 @media screen and (min-width: 1440px) {
+  .intro {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 500px) {
