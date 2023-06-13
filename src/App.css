@@ -216,6 +216,9 @@ form p {
   margin-left: 5px;
 }
 
+@media screen and (min-width: 1440px) {
+}
+
 @media screen and (max-width: 500px) {
   body {
     height: auto;
@@ -261,7 +264,7 @@ form p {
     margin-left: 0;
     font-size: 15px;
     width: calc(100% - 20px);
-    line-height: 1.4;
+    line-height: 2;
   }
 
   .intro p {
