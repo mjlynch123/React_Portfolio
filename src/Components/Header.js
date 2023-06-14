@@ -3,8 +3,9 @@ import Portfolio from "./Portfolio";
 import About from "./About";
 import Contact from "./Contact";
 import Resume from "./Resume";
+import Nav from "./Nav";
 
-export default function Nav() {
+export default function Header() {
   // Setting default state to "home"
   const [selectedItem, setSelectedItem] = useState("about");
 
@@ -15,17 +16,9 @@ export default function Nav() {
 
   return (
     <>
-      <nav>
-        <div className="name">
-          <h1>Martin Lynch</h1>
-        </div>
-        <ul>
-          <li onClick={() => handleItemClick("about")}>About Me</li>
-          <li onClick={() => handleItemClick("portfolio")}>Portfolio</li>
-          <li onClick={() => handleItemClick("contact")}>Contact</li>
-          <li onClick={() => handleItemClick("resume")}>Resume</li>
-        </ul>
-      </nav>
+      <header>
+        <Nav selectedItem={selectedItem} handleItemClick={handleItemClick} />
+      </header>
 
       {/* Calling the components that are selected */}
       {selectedItem === "about" && <About />}
