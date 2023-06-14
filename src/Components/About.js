@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 export default function About() {
   return (
     <>
@@ -47,6 +49,7 @@ export default function About() {
           <i class="fa-brands fa-codepen"></i>
         </a>
       </div>
+      <Footer />
     </>
   );
 }

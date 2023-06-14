@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 export default function Portfolio() {
   return (
     <>
@@ -50,6 +52,7 @@ export default function Portfolio() {
           Find more on my github!
         </a>
       </div>
+      <Footer />
     </>
   );
 }

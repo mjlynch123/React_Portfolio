@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 export default function Resume() {
   return (
     <>
@@ -14,6 +16,7 @@ export default function Resume() {
           Resume
         </a>
       </div>
+      <Footer />
     </>
   );
 }
