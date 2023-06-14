@@ -263,6 +263,18 @@ footer {
     width: calc(33.33% - 20px);
     height: 350px;
   }
+
+  footer {
+    bottom: -5px;
+  }
+
+  input {
+    height: 35px;
+  }
+
+  textarea {
+    height: 150px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
