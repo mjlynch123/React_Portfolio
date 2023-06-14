@@ -149,10 +149,10 @@ nav ul li:hover {
 /* Resume Component */
 
 .resume {
-  width: 33%;
+  width: 75%;
   margin: 10px auto;
   border: 1px solid;
-  height: 850px;
+  height: 900px;
   background-image: url("../public/resume_image.png");
   background-repeat: no-repeat;
   background-position: center;
