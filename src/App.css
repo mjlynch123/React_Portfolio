@@ -12,7 +12,7 @@ nav {
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  height: 100px;
+  height: 130px;
   background-color: #02020a;
   color: white;
   width: 100%;
@@ -44,7 +44,7 @@ nav {
 nav ul {
   position: absolute;
   left: 50%;
-  top: 30px;
+  top: 50px;
   transform: translateX(-50%);
   padding-left: 0px;
 }
@@ -52,6 +52,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin: 10px;
+  font-size: 20px;
   list-style-type: none;
 }
 
