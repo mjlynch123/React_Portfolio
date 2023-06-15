@@ -279,6 +279,16 @@ footer {
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    width: calc(33.33% - 20px);
+    height: 250px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .project1,
   .project2,
@@ -362,6 +372,7 @@ footer {
   .project3,
   .project4 {
     width: 100%;
+    height: 350px;
   }
 
   /* Contact Component */
