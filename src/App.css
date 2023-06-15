@@ -249,6 +249,8 @@ footer {
   color: white;
 }
 
+/* Min-Width */
+
 @media screen and (min-width: 1440px) {
   .intro {
     width: 50%;
@@ -288,6 +290,18 @@ footer {
     height: 250px;
   }
 }
+
+@media screen and (min-width: 1930px) {
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    width: calc(33.33% - 20px);
+    height: 350px;
+  }
+}
+
+/* Max-Width */
 
 @media screen and (max-width: 1200px) {
   .project1,
