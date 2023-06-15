@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 
+// Exporting the function that holds resume section
 export default function Resume() {
   return (
     <>

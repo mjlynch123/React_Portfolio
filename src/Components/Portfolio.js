@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 
+// Exporting the function that holds all projects
 export default function Portfolio() {
   return (
     <>

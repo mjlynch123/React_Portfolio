@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 
+// Exporting the function that holds about me section
 export default function About() {
   return (
     <>

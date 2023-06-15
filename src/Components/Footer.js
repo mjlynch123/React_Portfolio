@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+// Exporting the function that holds the footer
 export default function Footer() {
   return (
     <footer>

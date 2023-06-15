@@ -101,6 +101,7 @@ export default function Contact() {
             onBlur={handleInputChange}
             required
           />
+          {/* if there is no email entered after user clicks away from the ox then it will throw an error on screen */}
           {inputErrors.email && <p>{inputErrors.email}</p>}
           <textarea
             name="message"
@@ -108,6 +109,7 @@ export default function Contact() {
             onBlur={handleInputChange}
             required
           ></textarea>
+          {/* if there is no message entered after user clicks away from the ox then it will throw an error on screen */}
           {inputErrors.message && <p>{inputErrors.message}</p>}
           <button type="submit" onClick={handleSubmit}>
             Submit
