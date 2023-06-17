@@ -1,5 +1,9 @@
 # React_Portfolio
 
+![Image of website](./public/screenshot.png)
+
+## Description
+
 This is a personal portfolio website built using React. It showcases my projects, skills, and experiences to provide an overview of my work and abilities. The portfolio is designed to be responsive, interactive, and easy to navigate.
 
 ## Installation
